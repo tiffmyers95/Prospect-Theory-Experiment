@@ -1,0 +1,8 @@
+{
+    "name": "risk-or-no-risk",
+    "version": "0.0.1",
+    "description": "A lottery game to test your risk taking behavior (single player)",
+    "author": "camille <clandesvmail.uni-mannheim.de>",
+    "license": "MIT/X11",
+    "homepage": "http://nodegame.org"
+}
