@@ -1,0 +1,424 @@
+[{
+    "time": 1023,
+    "timeup": false,
+    "done": true,
+    "player": "996503718967356",
+    "stage": {
+        "stage": 1,
+        "step": 1,
+        "round": 1
+    },
+    "timestamp": 1578078028141
+}, {
+    "time": 548,
+    "timeup": false,
+    "order": [
+        0,
+        1,
+        2
+    ],
+    "forms": {
+        "sex": {
+            "id": "sex",
+            "choice": "!?_null",
+            "time": "!?_null",
+            "nClicks": 0
+        },
+        "age": {
+            "id": "age",
+            "choice": "!?_null",
+            "time": "!?_null",
+            "nClicks": 0
+        },
+        "education": {
+            "id": "education",
+            "choice": "!?_null",
+            "time": "!?_null",
+            "nClicks": 0
+        }
+    },
+    "missValues": [],
+    "isCorrect": true,
+    "done": true,
+    "player": "996503718967356",
+    "stage": {
+        "stage": 2,
+        "step": 1,
+        "round": 1
+    },
+    "timestamp": 1578078028951
+}, {
+    "time": 707,
+    "timeup": false,
+    "order": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9
+    ],
+    "forms": {
+        "M1_1": {
+            "id": "M1_1",
+            "choice": "!?_null",
+            "time": "!?_null",
+            "nClicks": 0
+        },
+        "M1_2": {
+            "id": "M1_2",
+            "choice": "!?_null",
+            "time": "!?_null",
+            "nClicks": 0
+        },
+        "M1_3": {
+            "id": "M1_3",
+            "choice": "!?_null",
+            "time": "!?_null",
+            "nClicks": 0
+        },
+        "M1_4": {
+            "id": "M1_4",
+            "choice": "!?_null",
+            "time": "!?_null",
+            "nClicks": 0
+        },
+        "M1_5": {
+            "id": "M1_5",
+            "choice": "!?_null",
+            "time": "!?_null",
+            "nClicks": 0
+        },
+        "M1_6": {
+            "id": "M1_6",
+            "choice": "!?_null",
+            "time": "!?_null",
+            "nClicks": 0
+        },
+        "M1_7": {
+            "id": "M1_7",
+            "choice": "!?_null",
+            "time": "!?_null",
+            "nClicks": 0
+        },
+        "M1_8": {
+            "id": "M1_8",
+            "choice": "!?_null",
+            "time": "!?_null",
+            "nClicks": 0
+        },
+        "M1_9": {
+            "id": "M1_9",
+            "choice": "!?_null",
+            "time": "!?_null",
+            "nClicks": 0
+        },
+        "M1_10": {
+            "id": "M1_10",
+            "choice": "!?_null",
+            "time": "!?_null",
+            "nClicks": 0
+        }
+    },
+    "missValues": [],
+    "isCorrect": true,
+    "done": true,
+    "player": "996503718967356",
+    "stage": {
+        "stage": 3,
+        "step": 1,
+        "round": 1
+    },
+    "timestamp": 1578078029918
+}, {
+    "time": 845,
+    "timeup": false,
+    "order": [
+        0,
+        1,
+        2,
+        3,
+        4
+    ],
+    "forms": {
+        "s_1": {
+            "id": "s_1",
+            "choice": "!?_null",
+            "time": "!?_null",
+            "nClicks": 0
+        },
+        "s_2": {
+            "id": "s_2",
+            "choice": "!?_null",
+            "time": "!?_null",
+            "nClicks": 0
+        },
+        "s_3": {
+            "id": "s_3",
+            "choice": "!?_null",
+            "time": "!?_null",
+            "nClicks": 0
+        },
+        "s_4": {
+            "id": "s_4",
+            "choice": "!?_null",
+            "time": "!?_null",
+            "nClicks": 0
+        },
+        "s_5": {
+            "id": "s_5",
+            "choice": "!?_null",
+            "time": "!?_null",
+            "nClicks": 0
+        }
+    },
+    "missValues": [],
+    "isCorrect": true,
+    "done": true,
+    "player": "996503718967356",
+    "stage": {
+        "stage": 4,
+        "step": 1,
+        "round": 1
+    },
+    "timestamp": 1578078031072
+}, {
+    "time": 3695,
+    "timeup": false,
+    "order": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9
+    ],
+    "forms": {
+        "M2_1": {
+            "id": "M2_1",
+            "choice": "!?_null",
+            "time": "!?_null",
+            "nClicks": 0
+        },
+        "M2_2": {
+            "id": "M2_2",
+            "choice": "!?_null",
+            "time": "!?_null",
+            "nClicks": 0
+        },
+        "M2_3": {
+            "id": "M2_3",
+            "choice": "!?_null",
+            "time": "!?_null",
+            "nClicks": 0
+        },
+        "M2_4": {
+            "id": "M2_4",
+            "choice": "!?_null",
+            "time": "!?_null",
+            "nClicks": 0
+        },
+        "M2_5": {
+            "id": "M2_5",
+            "choice": "!?_null",
+            "time": "!?_null",
+            "nClicks": 0
+        },
+        "M2_6": {
+            "id": "M2_6",
+            "choice": "!?_null",
+            "time": "!?_null",
+            "nClicks": 0
+        },
+        "M2_7": {
+            "id": "M2_7",
+            "choice": "!?_null",
+            "time": "!?_null",
+            "nClicks": 0
+        },
+        "M2_8": {
+            "id": "M2_8",
+            "choice": "!?_null",
+            "time": "!?_null",
+            "nClicks": 0
+        },
+        "M2_9": {
+            "id": "M2_9",
+            "choice": "!?_null",
+            "time": "!?_null",
+            "nClicks": 0
+        },
+        "M2_10": {
+            "id": "M2_10",
+            "choice": "!?_null",
+            "time": "!?_null",
+            "nClicks": 0
+        }
+    },
+    "missValues": [],
+    "isCorrect": true,
+    "done": true,
+    "player": "996503718967356",
+    "stage": {
+        "stage": 5,
+        "step": 1,
+        "round": 1
+    },
+    "timestamp": 1578078035071
+}, {
+    "time": 12090,
+    "timeup": false,
+    "id": "holt_laury",
+    "order": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9
+    ],
+    "items": {
+        "hl_1": {
+            "id": "hl_1",
+            "choice": "1",
+            "time": 2730,
+            "nClicks": 1,
+            "value": "1/10 chance to win $3.85<span class=\"sep\">and</span>9/10 chance to win $0.10",
+            "group": "holt_laury",
+            "groupOrder": 1,
+            "isCorrect": true,
+            "attempts": []
+        },
+        "hl_2": {
+            "id": "hl_2",
+            "choice": "1",
+            "time": 3566,
+            "nClicks": 1,
+            "value": "2/10 chance to win $3.85<span class=\"sep\">and</span>8/10 chance to win $0.10",
+            "group": "holt_laury",
+            "groupOrder": 2,
+            "isCorrect": true,
+            "attempts": []
+        },
+        "hl_3": {
+            "id": "hl_3",
+            "choice": "1",
+            "time": 4332,
+            "nClicks": 1,
+            "value": "3/10 chance to win $3.85<span class=\"sep\">and</span>7/10 chance to win $0.10",
+            "group": "holt_laury",
+            "groupOrder": 3,
+            "isCorrect": true,
+            "attempts": []
+        },
+        "hl_4": {
+            "id": "hl_4",
+            "choice": "1",
+            "time": 5122,
+            "nClicks": 1,
+            "value": "4/10 chance to win $3.85<span class=\"sep\">and</span>6/10 chance to win $0.10",
+            "group": "holt_laury",
+            "groupOrder": 4,
+            "isCorrect": true,
+            "attempts": []
+        },
+        "hl_5": {
+            "id": "hl_5",
+            "choice": "1",
+            "time": 5892,
+            "nClicks": 1,
+            "value": "5/10 chance to win $3.85<span class=\"sep\">and</span>5/10 chance to win $0.10",
+            "group": "holt_laury",
+            "groupOrder": 5,
+            "isCorrect": true,
+            "attempts": []
+        },
+        "hl_6": {
+            "id": "hl_6",
+            "choice": "1",
+            "time": 7304,
+            "nClicks": 1,
+            "value": "6/10 chance to win $3.85<span class=\"sep\">and</span>4/10 chance to win $0.10",
+            "group": "holt_laury",
+            "groupOrder": 6,
+            "isCorrect": true,
+            "attempts": []
+        },
+        "hl_7": {
+            "id": "hl_7",
+            "choice": "1",
+            "time": 8083,
+            "nClicks": 1,
+            "value": "7/10 chance to win $3.85<span class=\"sep\">and</span>3/10 chance to win $0.10",
+            "group": "holt_laury",
+            "groupOrder": 7,
+            "isCorrect": true,
+            "attempts": []
+        },
+        "hl_8": {
+            "id": "hl_8",
+            "choice": "1",
+            "time": 9015,
+            "nClicks": 1,
+            "value": "8/10 chance to win $3.85<span class=\"sep\">and</span>2/10 chance to win $0.10",
+            "group": "holt_laury",
+            "groupOrder": 8,
+            "isCorrect": true,
+            "attempts": []
+        },
+        "hl_9": {
+            "id": "hl_9",
+            "choice": "1",
+            "time": 10169,
+            "nClicks": 1,
+            "value": "9/10 chance to win $3.85<span class=\"sep\">and</span>1/10 chance to win $0.10",
+            "group": "holt_laury",
+            "groupOrder": 9,
+            "isCorrect": true,
+            "attempts": []
+        },
+        "hl_10": {
+            "id": "hl_10",
+            "choice": "1",
+            "time": 10922,
+            "nClicks": 1,
+            "value": "10/10 chance to win $3.85<span class=\"sep\">and</span>0/10 chance to win $0.10",
+            "group": "holt_laury",
+            "groupOrder": 10,
+            "isCorrect": true,
+            "attempts": []
+        }
+    },
+    "isCorrect": true,
+    "done": true,
+    "player": "996503718967356",
+    "stage": {
+        "stage": 6,
+        "step": 1,
+        "round": 1
+    },
+    "timestamp": 1578078047445
+}, {
+    "time": 52709,
+    "timeup": false,
+    "done": true,
+    "player": "996503718967356",
+    "stage": {
+        "stage": 7,
+        "step": 1,
+        "round": 1
+    },
+    "timestamp": 1578078100582
+}]

@@ -1,0 +1,200 @@
+[{
+    "time": 6523,
+    "timeup": false,
+    "done": true,
+    "player": "300443782530402",
+    "stage": {
+        "stage": 1,
+        "step": 1,
+        "round": 1
+    },
+    "timestamp": 1578074983755
+}, {
+    "time": 7957,
+    "timeup": false,
+    "order": [
+        0,
+        1,
+        2
+    ],
+    "forms": {
+        "sex": {
+            "id": "sex",
+            "choice": "!?_null",
+            "time": "!?_null",
+            "nClicks": 0
+        },
+        "age": {
+            "id": "age",
+            "choice": "!?_null",
+            "time": "!?_null",
+            "nClicks": 0
+        },
+        "education": {
+            "id": "education",
+            "choice": "!?_null",
+            "time": "!?_null",
+            "nClicks": 0
+        }
+    },
+    "missValues": [],
+    "isCorrect": true,
+    "done": true,
+    "player": "300443782530402",
+    "stage": {
+        "stage": 2,
+        "step": 1,
+        "round": 1
+    },
+    "timestamp": 1578074992087
+}, {
+    "time": 1590,
+    "timeup": false,
+    "order": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9
+    ],
+    "forms": {
+        "M1_1": {
+            "id": "M1_1",
+            "choice": "!?_null",
+            "time": "!?_null",
+            "nClicks": 0
+        },
+        "M1_2": {
+            "id": "M1_2",
+            "choice": "!?_null",
+            "time": "!?_null",
+            "nClicks": 0
+        },
+        "M1_3": {
+            "id": "M1_3",
+            "choice": "!?_null",
+            "time": "!?_null",
+            "nClicks": 0
+        },
+        "M1_4": {
+            "id": "M1_4",
+            "choice": "!?_null",
+            "time": "!?_null",
+            "nClicks": 0
+        },
+        "M1_5": {
+            "id": "M1_5",
+            "choice": "!?_null",
+            "time": "!?_null",
+            "nClicks": 0
+        },
+        "M1_6": {
+            "id": "M1_6",
+            "choice": "!?_null",
+            "time": "!?_null",
+            "nClicks": 0
+        },
+        "M1_7": {
+            "id": "M1_7",
+            "choice": "!?_null",
+            "time": "!?_null",
+            "nClicks": 0
+        },
+        "M1_8": {
+            "id": "M1_8",
+            "choice": "!?_null",
+            "time": "!?_null",
+            "nClicks": 0
+        },
+        "M1_9": {
+            "id": "M1_9",
+            "choice": "!?_null",
+            "time": "!?_null",
+            "nClicks": 0
+        },
+        "M1_10": {
+            "id": "M1_10",
+            "choice": "!?_null",
+            "time": "!?_null",
+            "nClicks": 0
+        }
+    },
+    "missValues": [],
+    "isCorrect": true,
+    "done": true,
+    "player": "300443782530402",
+    "stage": {
+        "stage": 3,
+        "step": 1,
+        "round": 1
+    },
+    "timestamp": 1578074994027
+}, {
+    "time": 1842,
+    "timeup": false,
+    "order": [
+        0,
+        1,
+        2,
+        3,
+        4
+    ],
+    "forms": {
+        "s_1": {
+            "id": "s_1",
+            "choice": "!?_null",
+            "time": "!?_null",
+            "nClicks": 0
+        },
+        "s_2": {
+            "id": "s_2",
+            "choice": "!?_null",
+            "time": "!?_null",
+            "nClicks": 0
+        },
+        "s_3": {
+            "id": "s_3",
+            "choice": "!?_null",
+            "time": "!?_null",
+            "nClicks": 0
+        },
+        "s_4": {
+            "id": "s_4",
+            "choice": "!?_null",
+            "time": "!?_null",
+            "nClicks": 0
+        },
+        "s_5": {
+            "id": "s_5",
+            "choice": "!?_null",
+            "time": "!?_null",
+            "nClicks": 0
+        }
+    },
+    "missValues": [],
+    "isCorrect": true,
+    "done": true,
+    "player": "300443782530402",
+    "stage": {
+        "stage": 4,
+        "step": 1,
+        "round": 1
+    },
+    "timestamp": 1578074996148
+}, {
+    "time": 2316,
+    "timeup": false,
+    "done": true,
+    "player": "300443782530402",
+    "stage": {
+        "stage": 5,
+        "step": 1,
+        "round": 1
+    },
+    "timestamp": 1578074998756
+}]

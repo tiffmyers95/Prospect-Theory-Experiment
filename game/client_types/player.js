@@ -118,8 +118,8 @@ module.exports = function(treatmentName, settings, stager, setup, gameRoom) {
 	 //});
 	 
 
-	/// var root = document.body;
-	/// var mood = node.widgets.get('MoodGauge', root);		
+	//// var root = document.body;
+	//// var mood = node.widgets.get('MoodGauge', root);		
 			
 // After user made his or her selection, get current values.
 // mood.getValues();
@@ -151,54 +151,178 @@ module.exports = function(treatmentName, settings, stager, setup, gameRoom) {
 // };
 // });		
 
-
-	//stager.extendStep('mood1_test', {
-		//widget: {
-		//name: 'ChoiceTableGroup',
-		//root: 'container',
-		//id: 'score',
-		//options: {
-			//mainText: 'Thinking about yourself and how you normally feel, to what extent do you generally feel:',
-			//items: [
-				//	'Enraged',	 //anger
-				//	'Sorrowful', //sadness
-				//	'Afraid',	 //fear	//maybe add more, look at mood gauge
-			//],
-     //choices: [ 1, 2, 3, 4, 5 ],
-     //requiredChoice: true,
-     //left: 'Always',
-     //right: 'Never'
-		//	}
-		//}
-	 //});	
-	 
-	 
-//VERSION 2 Test
-
-	//var moodOptions = {
-    //id: 'score',
-    //mainText: 'Thinking about yourself and how you normally feel, to what extent do you generally feel:',
-		//	items: [
-		//			'Enraged',	 //anger
-		//			'Sorrowful', //sadness
-		//			'Afraid',	 //fear	//maybe add more, look at mood gauge
-		//	],
-    // choices: [ 1, 2, 3, 4, 5 ],
-    // shuffleItems: true, 
-    // requiredChoice: true,
-    // left: 'Lowest',
-    // right: 'Highest'
-//};        
-
-//var node = gameRoom.node;
-
-	// stager.extendStep('mood1_test', {
-    //   cb: function() {
-    //      var w;
-    //      w = node.widgets;
-	//		var scoreTable = w.append('ChoiceTableGroup', 'container', moodOptions);
-	//	}
-	 //});	 			
+stager.extendStep('mood1', {
+widget: {
+		name: 'ChoiceManager',
+		root: 'container',
+		options: {
+			className: 'centered',
+			mainText: 'And how are you feeling right now?',
+			forms: [
+			{
+				name: 'ChoiceTable',
+				id: 'M1_1',
+				mainText: 'I feel angry',
+				choices: [
+				'1',
+				'2',
+				'3',
+				'4',
+				'5'
+			],
+			// requiredChoice: true,
+			left: 'Not at all',
+			right: 'Strongly',
+			},
+			
+			{
+				name: 'ChoiceTable',
+				id: 'M1_2',
+				mainText: 'I feel happy',
+				choices: [
+				'1',
+				'2',
+				'3',
+				'4',
+				'5'
+			],
+			// requiredChoice: true,
+			left: 'Not at all',
+			right: 'Strongly',
+			},
+			
+			{
+				name: 'ChoiceTable',
+				id: 'M1_3',
+				mainText: 'I feel enraged',
+				choices: [
+				'1',
+				'2',
+				'3',
+				'4',
+				'5'
+			],
+			// requiredChoice: true,
+			left: 'Not at all',
+			right: 'Strongly',
+			},
+			
+			{
+				name: 'ChoiceTable',
+				id: 'M1_4',
+				mainText: 'I feel determined',
+				choices: [
+				'1',
+				'2',
+				'3',
+				'4',
+				'5'
+			],
+			// requiredChoice: true,
+			left: 'Not at all',
+			right: 'Strongly',
+			},
+			
+			{
+				name: 'ChoiceTable',
+				id: 'M1_5',
+				mainText: 'I feel sad',
+				choices: [
+				'1',
+				'2',
+				'3',
+				'4',
+				'5'
+			],
+			// requiredChoice: true,
+			left: 'Not at all',
+			right: 'Strongly',
+			},
+			
+			{
+				name: 'ChoiceTable',
+				id: 'M1_6',
+				mainText: 'I feel inspired',
+				choices: [
+				'1',
+				'2',
+				'3',
+				'4',
+				'5'
+			],
+			// requiredChoice: true,
+			left: 'Not at all',
+			right: 'Strongly',
+			},
+			
+			{
+				name: 'ChoiceTable',
+				id: 'M1_7',
+				mainText: 'I feel sorrowful',
+				choices: [
+				'1',
+				'2',
+				'3',
+				'4',
+				'5'
+			],
+			// requiredChoice: true,
+			left: 'Not at all',
+			right: 'Strongly',
+			},
+			
+			{
+				name: 'ChoiceTable',
+				id: 'M1_8',
+				mainText: 'I feel afraid',
+				choices: [
+				'1',
+				'2',
+				'3',
+				'4',
+				'5'
+			],
+			// requiredChoice: true,
+			left: 'Not at all',
+			right: 'Strongly',
+			},
+			
+			{
+				name: 'ChoiceTable',
+				id: 'M1_9',
+				mainText: 'I feel attentive',
+				choices: [
+				'1',
+				'2',
+				'3',
+				'4',
+				'5'
+			],
+			// requiredChoice: true,
+			left: 'Not at all',
+			right: 'Strongly',
+			},
+			
+			{
+				name: 'ChoiceTable',
+				id: 'M1_10',
+				mainText: 'I feel frightened',
+				choices: [
+				'1',
+				'2',
+				'3',
+				'4',
+				'5'
+			],
+			// requiredChoice: true,
+			left: 'Not at all',
+			right: 'Strongly',
+			},
+			
+			]
+		}
+		}
+    });	
 		
 	stager.extendStep('fakesurvey', {
 		widget: {
@@ -275,104 +399,211 @@ module.exports = function(treatmentName, settings, stager, setup, gameRoom) {
 		}
 		}
     });
-	
-	//stager.extendStep('mood2', {
-	//widget: {
-	//name: 'MoodGauge',
-	//root: 'container',
-		// options: {
-        //        panel: false,
-        //        title: false
-        //    }
-		//}	
-	 //});
+
+stager.extendStep('mood2', {
+widget: {
+		name: 'ChoiceManager',
+		root: 'container',
+		options: {
+			className: 'centered',
+			mainText: 'How are you feeling right now after completing the writing task?',
+			forms: [
+			{
+				name: 'ChoiceTable',
+				id: 'M2_1',
+				mainText: 'I feel angry',
+				choices: [
+				'1',
+				'2',
+				'3',
+				'4',
+				'5'
+			],
+			// requiredChoice: true,
+			left: 'Not at all',
+			right: 'Strongly',
+			},
+			
+			{
+				name: 'ChoiceTable',
+				id: 'M2_2',
+				mainText: 'I feel happy',
+				choices: [
+				'1',
+				'2',
+				'3',
+				'4',
+				'5'
+			],
+			// requiredChoice: true,
+			left: 'Not at all',
+			right: 'Strongly',
+			},
+			
+			{
+				name: 'ChoiceTable',
+				id: 'M2_3',
+				mainText: 'I feel offended',
+				choices: [
+				'1',
+				'2',
+				'3',
+				'4',
+				'5'
+			],
+			// requiredChoice: true,
+			left: 'Not at all',
+			right: 'Strongly',
+			},
+			
+			{
+				name: 'ChoiceTable',
+				id: 'M2_4',
+				mainText: 'I feel determined',
+				choices: [
+				'1',
+				'2',
+				'3',
+				'4',
+				'5'
+			],
+			// requiredChoice: true,
+			left: 'Not at all',
+			right: 'Strongly',
+			},
+			
+			{
+				name: 'ChoiceTable',
+				id: 'M2_5',
+				mainText: 'I feel sad',
+				choices: [
+				'1',
+				'2',
+				'3',
+				'4',
+				'5'
+			],
+			// requiredChoice: true,
+			left: 'Not at all',
+			right: 'Strongly',
+			},
+			
+			{
+				name: 'ChoiceTable',
+				id: 'M2_6',
+				mainText: 'I feel inspired',
+				choices: [
+				'1',
+				'2',
+				'3',
+				'4',
+				'5'
+			],
+			// requiredChoice: true,
+			left: 'Not at all',
+			right: 'Strongly',
+			},
+			
+			{
+				name: 'ChoiceTable',
+				id: 'M2_7',
+				mainText: 'I feel sorrowful',
+				choices: [
+				'1',
+				'2',
+				'3',
+				'4',
+				'5'
+			],
+			// requiredChoice: true,
+			left: 'Not at all',
+			right: 'Strongly',
+			},
+			
+			{
+				name: 'ChoiceTable',
+				id: 'M2_8',
+				mainText: 'I feel afraid',
+				choices: [
+				'1',
+				'2',
+				'3',
+				'4',
+				'5'
+			],
+			// requiredChoice: true,
+			left: 'Not at all',
+			right: 'Strongly',
+			},
+			
+			{
+				name: 'ChoiceTable',
+				id: 'M2_9',
+				mainText: 'I feel attentive',
+				choices: [
+				'1',
+				'2',
+				'3',
+				'4',
+				'5'
+			],
+			// requiredChoice: true,
+			left: 'Not at all',
+			right: 'Strongly',
+			},
+			
+			{
+				name: 'ChoiceTable',
+				id: 'M2_10',
+				mainText: 'I feel frightened',
+				choices: [
+				'1',
+				'2',
+				'3',
+				'4',
+				'5'
+			],
+			// requiredChoice: true,
+			left: 'Not at all',
+			right: 'Strongly',
+			},
+			
+			]
+		}
+		}
+    });	
 
 
-//stager.extendStep('mood2_test', {
-	//	widget: {
-	//	name: 'ChoiceTableGroup',
-	//	root: 'container',
-	//	id: 'score',
-	//	options: {
-		//	mainText: 'After doing this little writing-task, would you mind telling us again how you feel right now? Think of your earlier answers which were on a more general level and try to answer in reference to them',
-		//	items: [
-			//		'Enraged',	 //anger
-			//		'Sorrowful', //sadness
-			//		'Afraid',	 //fear	//maybe add more, look at mood gauge
-			//],
-     //choices: [ 1, 2, 3, 4, 5 ],
-     //requiredChoice: true,
-     //left: 'Not at all',
-     //right: 'Strongly'
-		//	}
-		//}
-	 //});		
-
-	
-	stager.extendStep('game', {
-        donebutton: false,
-        frame: 'game.htm',
-        roles: {
-            DICTATOR: {
-                timer: settings.bidTime,
-                cb: function() {
-                    var button, offer, div;
-
-                    // Make the dictator display visible.
-                    div = W.getElementById('dictator').style.display = '';
-                    button = W.getElementById('submitOffer');
-                    offer =  W.getElementById('offer');
-
-                    // Listen on click event.
-                    button.onclick = function() {
-                        var decision;
-
-                        // Validate offer.
-                        decision = node.game.isValidBid(offer.value);
-                        if ('number' !== typeof decision) {
-                            W.writeln('Please enter a number between ' +
-                                      '0 and 100.', 'dictator');
-                            return;
-                        }
-                        button.disabled = true;
-
-                        // Mark the end of the round, and
-                        // store the decision in the server.
-                        node.done({ offer: decision });
-                    };
-                },
-                timeup: function() {
-                    node.game.randomOffer(W.getElementById('offer'),
-                                          W.getElementById('submitOffer'));
-                }
-            },
-            OBSERVER: {
-                cb: function() {
-                    var span, div, dotsObj;
-
-                    // Make the observer display visible.
-                    div = W.getElementById('observer').style.display = '';
-                    span = W.getElementById('dots');
-                    dotsObj = W.addLoadingDots(span);
-
-                    node.on.data('decision', function(msg) {
-                        dotsObj.stop();
-                        W.setInnerHTML('waitingFor', 'Decision arrived: ');
-                        W.setInnerHTML('decision',
-                                       'The dictator offered: ' +
-                                       msg.data + ' ECU.');
-
-                        node.timer.randomDone();
-                    });
-                }
+stager.extendStep('game', {
+	widget: {
+	name: 'RiskGauge',
+	root: 'container',
+		 options: {
+                panel: false,
+                title: false
             }
-        }
+		}	
+	 });
+	
+	 
+stager.extendStep('debriefing_feedback', {
+	frame: 'debriefing.htm',
+    widget: {
+			name: "Feedback",
+			root: "container", 
+			options: {
+			className: "centered",
+			mainText: "Contact us here or give us feedback on our study!",
+			minchar: 100,
+			minwords: 5,
+			requiredChoice: true,
+			showSubmit: false,
+			panel: false,
+			title: false,
+			}
+		}
     });
 
-    stager.extendStep('consent', {
-		frame: 'debriefing.htm'
-    });
-	
 	
 	stager.extendStep('end', {
         donebutton: false,

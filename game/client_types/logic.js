@@ -29,37 +29,37 @@ module.exports = function(treatmentName, settings, stager, setup, gameRoom) {
         }
     });
 
-    stager.extendStep('game', {
-        matcher: {
-            roles: [ 'DICTATOR', 'OBSERVER' ],
-            match: 'round_robin',
-            cycle: 'mirror_invert',
-            sayPartner: false
+    //stager.extendStep('game', {
+      //  matcher: {
+        //    roles: [ 'DICTATOR', 'OBSERVER' ],
+        //    match: 'round_robin',
+        //    cycle: 'mirror_invert',
+        //    sayPartner: false
             // skipBye: false,
 
-        },
-        cb: function() {
-            node.once.data('done', function(msg) {
-                var offer, observer;
-                offer = msg.data.offer;
+        //},
+        //cb: function() {
+        //    node.once.data('done', function(msg) {
+        //        var offer, observer;
+        //        offer = msg.data.offer;
 
                 // Validate incoming offer.
-                if (false === J.isInt(offer, 0, 100)) {
-                    console.log('Invalid offer received from ' + msg.from);
+          //      if (false === J.isInt(offer, 0, 100)) {
+          //          console.log('Invalid offer received from ' + msg.from);
                     // If dictator is cheating re-set his/her offer.
-                    msg.data.offer = settings.defaultOffer;
+          //          msg.data.offer = settings.defaultOffer;
                     // Mark the item as manipulated.
-                    msg.data.originalOffer = offer;
-                }
+          //          msg.data.originalOffer = offer;
+          //      }
 
-                observer = node.game.matcher.getMatchFor(msg.from);
+           //     observer = node.game.matcher.getMatchFor(msg.from);
                 // Send the decision to the other player.
-                node.say('decision', observer, msg.data.offer);
+           //     node.say('decision', observer, msg.data.offer);
 
-            });
-            console.log('Game round: ' + node.player.stage.round);
-        }
-    });
+           // });
+           // console.log('Game round: ' + node.player.stage.round);
+        //}
+    //});
 
     stager.extendStep('end', {
         cb: function() {

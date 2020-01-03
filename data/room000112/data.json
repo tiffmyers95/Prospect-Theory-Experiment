@@ -1,0 +1,248 @@
+[{
+    "time": 1432,
+    "timeup": false,
+    "done": true,
+    "player": "65095137746572",
+    "stage": {
+        "stage": 1,
+        "step": 1,
+        "round": 1
+    },
+    "timestamp": 1578057610228
+}, {
+    "time": 2307,
+    "timeup": false,
+    "order": [
+        0,
+        1,
+        2
+    ],
+    "forms": {
+        "sex": {
+            "id": "sex",
+            "choice": "1",
+            "time": 692,
+            "nClicks": 1,
+            "value": "female"
+        },
+        "age": {
+            "id": "age",
+            "choice": "4",
+            "time": 1203,
+            "nClicks": 1,
+            "value": "51-60"
+        },
+        "education": {
+            "id": "education",
+            "choice": "3",
+            "time": 1539,
+            "nClicks": 1,
+            "value": "Bachelor’s degree"
+        }
+    },
+    "missValues": [],
+    "isCorrect": true,
+    "done": true,
+    "player": "65095137746572",
+    "stage": {
+        "stage": 2,
+        "step": 1,
+        "round": 1
+    },
+    "timestamp": 1578057612795
+}, {
+    "time": 1418,
+    "timeup": false,
+    "done": true,
+    "player": "65095137746572",
+    "stage": {
+        "stage": 3,
+        "step": 1,
+        "round": 1
+    },
+    "timestamp": 1578057614227
+}, {
+    "time": 10474,
+    "timeup": false,
+    "order": [
+        0,
+        1,
+        2,
+        3,
+        4
+    ],
+    "forms": {
+        "M_1": {
+            "id": "M_1",
+            "choice": "0",
+            "time": 5530,
+            "nClicks": 1,
+            "value": "Always"
+        },
+        "M_2": {
+            "id": "M_2",
+            "choice": "0",
+            "time": 6162,
+            "nClicks": 1,
+            "value": "Always"
+        },
+        "M_3": {
+            "id": "M_3",
+            "choice": "0",
+            "time": 6722,
+            "nClicks": 1,
+            "value": "Always"
+        },
+        "M_4": {
+            "id": "M_4",
+            "choice": "0",
+            "time": 7266,
+            "nClicks": 1,
+            "value": "Always"
+        },
+        "M_5": {
+            "id": "M_5",
+            "choice": "0",
+            "time": 8818,
+            "nClicks": 1,
+            "value": "Always"
+        }
+    },
+    "missValues": [],
+    "isCorrect": true,
+    "done": true,
+    "player": "65095137746572",
+    "stage": {
+        "stage": 4,
+        "step": 1,
+        "round": 1
+    },
+    "timestamp": 1578057624923
+}, {
+    "time": 8230,
+    "timeup": false,
+    "order": [
+        0,
+        1,
+        2,
+        3,
+        4
+    ],
+    "forms": {
+        "s_1": {
+            "id": "s_1",
+            "choice": "0",
+            "time": 2430,
+            "nClicks": 1,
+            "value": "Yes"
+        },
+        "s_2": {
+            "id": "s_2",
+            "choice": "0",
+            "time": 3486,
+            "nClicks": 1,
+            "value": "Yes"
+        },
+        "s_3": {
+            "id": "s_3",
+            "choice": "0",
+            "time": 4014,
+            "nClicks": 1,
+            "value": "Yes"
+        },
+        "s_4": {
+            "id": "s_4",
+            "choice": "0",
+            "time": 4494,
+            "nClicks": 1,
+            "value": "Yes"
+        },
+        "s_5": {
+            "id": "s_5",
+            "choice": "0",
+            "time": 5118,
+            "nClicks": 1,
+            "value": "Yes"
+        }
+    },
+    "missValues": [],
+    "isCorrect": true,
+    "done": true,
+    "player": "65095137746572",
+    "stage": {
+        "stage": 5,
+        "step": 1,
+        "round": 1
+    },
+    "timestamp": 1578057633419
+}, {
+    "time": 10771,
+    "timeup": false,
+    "order": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5
+    ],
+    "forms": {
+        "M1_1": {
+            "id": "M1_1",
+            "choice": "!?_null",
+            "time": "!?_null",
+            "nClicks": 0
+        },
+        "M1_2": {
+            "id": "M1_2",
+            "choice": "!?_null",
+            "time": "!?_null",
+            "nClicks": 0
+        },
+        "M1_3": {
+            "id": "M1_3",
+            "choice": "!?_null",
+            "time": "!?_null",
+            "nClicks": 0
+        },
+        "M1_4": {
+            "id": "M1_4",
+            "choice": "!?_null",
+            "time": "!?_null",
+            "nClicks": 0
+        },
+        "M1_5": {
+            "id": "M1_5",
+            "choice": "!?_null",
+            "time": "!?_null",
+            "nClicks": 0
+        },
+        "M1_6": {
+            "id": "M1_6",
+            "choice": "!?_null",
+            "time": "!?_null",
+            "nClicks": 0
+        }
+    },
+    "missValues": [],
+    "isCorrect": true,
+    "done": true,
+    "player": "65095137746572",
+    "stage": {
+        "stage": 6,
+        "step": 1,
+        "round": 1
+    },
+    "timestamp": 1578057644395
+}, {
+    "time": 17018,
+    "timeup": false,
+    "done": true,
+    "player": "65095137746572",
+    "stage": {
+        "stage": 7,
+        "step": 1,
+        "round": 1
+    },
+    "timestamp": 1578057661659
+}]
