@@ -66,8 +66,8 @@ module.exports = function(treatmentName, settings, stager, setup, gameRoom) {
 				id: 'sex',
 				mainText: 'What is your gender?',
 				choices: [
-				'male',
-				'female',
+				'Male',
+				'Female',
 				"Do not want to say"
 			],
 			//requiredChoice: true,
@@ -106,6 +106,73 @@ module.exports = function(treatmentName, settings, stager, setup, gameRoom) {
 		}
     });
 	
+	
+stager.extendStep('socio2', {
+		widget: {
+		name: 'ChoiceManager',
+		root: 'container',
+		options: {
+			className: 'centered',
+			forms: [
+			{
+				name: 'ChoiceTable',
+				id: 'education_father',
+				mainText: "What is your fathers' highest educational level?",
+				choices: [
+				'No degree',
+				'Less than high school diploma',
+				'High school diploma or equivalent degree',
+				"Bachelor’s degree",
+				"Master's degree",
+				'Do not want to say'
+			],
+			title: false,
+			//requiredChoice: true
+			}, 
+			
+			{
+				name: 'ChoiceTable',
+				id: 'education_mother',
+				mainText: "What is your mothers' highest educational level?",
+				choices: [
+				'No degree',
+				'Less than high school diploma',
+				'High school diploma or equivalent degree',
+				"Bachelor’s degree",
+				"Master's degree",
+				'Do not want to say'
+			],
+			title: false,
+			//requiredChoice: true
+			},
+			
+			{
+				name: 'CustomInput',
+				id: 'automobiles',
+				mainText: 'How many automobiles (e.g. cars) are there in your household?',
+				type: 'int',
+				min: 0,
+				max: 10,
+				requiredChoice: true
+			},
+			
+			{
+				name: 'CustomInput',
+				id: 'rooms',
+				mainText: 'How many rooms are there in your home?',
+				type: 'int',
+				min: 0,
+				max: 10,
+				requiredChoice: true
+			}
+			]
+		}
+		}
+    });
+	
+
+	
+
 	//stager.extendStep('mood1', {
 	//widget: {
 	//name: 'MoodGauge',
@@ -574,6 +641,25 @@ widget: {
     });	
 
 
+
+stager.extendStep('writing', {
+    widget: {
+    name: 'Feedback',
+    root: 'container',
+        options: {
+          className: 'centered',
+          mainText: 'Can you recall the moment where you felt ' + settings.questionFeeling + '? Please write about the situation in as much detail as you can.',
+          minChars: 100,
+          minWords: 5,
+          requiredChoice: true,
+          showSubmit: false,
+          panel: false,
+          title: false,
+        }
+      }
+    });
+
+
 stager.extendStep('game', {
 	widget: {
 	name: 'RiskGauge',
@@ -586,7 +672,7 @@ stager.extendStep('game', {
 	 });
 	
 	 
-stager.extendStep('debriefing_feedback', {
+stager.extendStep('debriefing_feedback_consent', {
 	frame: 'debriefing.htm',
     widget: {
 			name: "Feedback",
@@ -608,8 +694,8 @@ stager.extendStep('debriefing_feedback', {
 	stager.extendStep('end', {
         donebutton: false,
         frame: 'end.htm',
-        cb: function() {
-            node.game.visualTimer.setToZero();
-        }
+        //cb: function() {
+        //    node.game.visualTimer.setToZero();
+        //}
     });
 };

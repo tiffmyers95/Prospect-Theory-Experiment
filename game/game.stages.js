@@ -14,13 +14,13 @@ module.exports = function(stager, settings) {
      stager
         .next("instructions")
 		.next("socio")
+		.next("socio2")
 		.next("mood1")
 		.next("fakesurvey") 
 		.next("writing")
 		.next("mood2") 
         .next("game")
-		.next("debriefing_feedback")
-		//.next("consent")
+		.next("debriefing_feedback_consent")
         .next('end')
         .gameover();
 
