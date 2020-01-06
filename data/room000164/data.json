@@ -1,0 +1,524 @@
+[{
+    "time": 43685,
+    "timeup": false,
+    "done": true,
+    "player": "378488231562720",
+    "stage": {
+        "stage": 1,
+        "step": 1,
+        "round": 1
+    },
+    "timestamp": 1578327807063
+}, {
+    "time": 49984,
+    "timeup": false,
+    "order": [
+        0,
+        1,
+        2
+    ],
+    "forms": {
+        "sex": {
+            "id": "sex",
+            "choice": "1",
+            "time": 7872,
+            "nClicks": 1,
+            "value": "Female"
+        },
+        "age": {
+            "id": "age",
+            "choice": "4",
+            "time": 9430,
+            "nClicks": 1,
+            "value": "51-60"
+        },
+        "education": {
+            "id": "education",
+            "choice": "4",
+            "time": 47378,
+            "nClicks": 1,
+            "value": "Master's degree"
+        }
+    },
+    "missValues": [],
+    "isCorrect": true,
+    "done": true,
+    "player": "378488231562720",
+    "stage": {
+        "stage": 2,
+        "step": 1,
+        "round": 1
+    },
+    "timestamp": 1578327857274
+}, {
+    "time": 35258,
+    "timeup": false,
+    "order": [
+        0,
+        1,
+        2,
+        3
+    ],
+    "forms": {
+        "education_father": {
+            "id": "education_father",
+            "choice": "4",
+            "time": 6869,
+            "nClicks": 1,
+            "value": "Master's degree"
+        },
+        "education_mother": {
+            "id": "education_mother",
+            "choice": "4",
+            "time": 7470,
+            "nClicks": 1,
+            "value": "Master's degree"
+        },
+        "automobiles": {
+            "value": 9,
+            "timeBegin": 21834,
+            "timeEnd": 21834,
+            "isCorrect": true,
+            "id": "automobiles"
+        },
+        "rooms": {
+            "value": 9,
+            "timeBegin": 24240,
+            "timeEnd": 33555,
+            "isCorrect": true,
+            "id": "rooms"
+        }
+    },
+    "missValues": [],
+    "isCorrect": true,
+    "done": true,
+    "player": "378488231562720",
+    "stage": {
+        "stage": 3,
+        "step": 1,
+        "round": 1
+    },
+    "timestamp": 1578327893049
+}, {
+    "time": 86206,
+    "timeup": false,
+    "order": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9
+    ],
+    "forms": {
+        "M1_1": {
+            "id": "M1_1",
+            "choice": "0",
+            "time": 21636,
+            "nClicks": 1,
+            "value": "1"
+        },
+        "M1_2": {
+            "id": "M1_2",
+            "choice": "4",
+            "time": 25092,
+            "nClicks": 1,
+            "value": "5"
+        },
+        "M1_3": {
+            "id": "M1_3",
+            "choice": "0",
+            "time": 32028,
+            "nClicks": 1,
+            "value": "1"
+        },
+        "M1_4": {
+            "id": "M1_4",
+            "choice": "4",
+            "time": 59460,
+            "nClicks": 1,
+            "value": "5"
+        },
+        "M1_5": {
+            "id": "M1_5",
+            "choice": "4",
+            "time": 63927,
+            "nClicks": 1,
+            "value": "5"
+        },
+        "M1_6": {
+            "id": "M1_6",
+            "choice": "0",
+            "time": 78199,
+            "nClicks": 1,
+            "value": "1"
+        },
+        "M1_7": {
+            "id": "M1_7",
+            "choice": "2",
+            "time": 80573,
+            "nClicks": 1,
+            "value": "3"
+        },
+        "M1_8": {
+            "id": "M1_8",
+            "choice": "2",
+            "time": 81678,
+            "nClicks": 1,
+            "value": "3"
+        },
+        "M1_9": {
+            "id": "M1_9",
+            "choice": "2",
+            "time": 83542,
+            "nClicks": 1,
+            "value": "3"
+        },
+        "M1_10": {
+            "id": "M1_10",
+            "choice": "2",
+            "time": 84514,
+            "nClicks": 1,
+            "value": "3"
+        }
+    },
+    "missValues": [],
+    "isCorrect": true,
+    "done": true,
+    "player": "378488231562720",
+    "stage": {
+        "stage": 4,
+        "step": 1,
+        "round": 1
+    },
+    "timestamp": 1578327979574
+}, {
+    "time": 37982,
+    "timeup": false,
+    "order": [
+        0,
+        1,
+        2,
+        3,
+        4
+    ],
+    "forms": {
+        "s_1": {
+            "id": "s_1",
+            "choice": "0",
+            "time": 10824,
+            "nClicks": 2,
+            "value": "Yes"
+        },
+        "s_2": {
+            "id": "s_2",
+            "choice": "0",
+            "time": 16006,
+            "nClicks": 2,
+            "value": "Yes"
+        },
+        "s_3": {
+            "id": "s_3",
+            "choice": "0",
+            "time": 20310,
+            "nClicks": 1,
+            "value": "Yes"
+        },
+        "s_4": {
+            "id": "s_4",
+            "choice": "0",
+            "time": 22037,
+            "nClicks": 1,
+            "value": "Yes"
+        },
+        "s_5": {
+            "id": "s_5",
+            "choice": "1",
+            "time": 29739,
+            "nClicks": 1,
+            "value": "No"
+        }
+    },
+    "missValues": [],
+    "isCorrect": true,
+    "done": true,
+    "player": "378488231562720",
+    "stage": {
+        "stage": 5,
+        "step": 1,
+        "round": 1
+    },
+    "timestamp": 1578328018179
+}, {
+    "time": 23948,
+    "timeup": false,
+    "timeBegin": "!?_null",
+    "feedback": "aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa",
+    "attempts": [
+        ""
+    ],
+    "valid": true,
+    "isCorrect": true,
+    "done": true,
+    "player": "378488231562720",
+    "stage": {
+        "stage": 6,
+        "step": 1,
+        "round": 1
+    },
+    "timestamp": 1578328042431
+}, {
+    "time": 18354,
+    "timeup": false,
+    "order": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9
+    ],
+    "forms": {
+        "M2_1": {
+            "id": "M2_1",
+            "choice": "2",
+            "time": 6891,
+            "nClicks": 1,
+            "value": "3"
+        },
+        "M2_2": {
+            "id": "M2_2",
+            "choice": "2",
+            "time": 7508,
+            "nClicks": 3,
+            "value": "3"
+        },
+        "M2_3": {
+            "id": "M2_3",
+            "choice": "2",
+            "time": 8004,
+            "nClicks": 1,
+            "value": "3"
+        },
+        "M2_4": {
+            "id": "M2_4",
+            "choice": "2",
+            "time": 8487,
+            "nClicks": 1,
+            "value": "3"
+        },
+        "M2_5": {
+            "id": "M2_5",
+            "choice": "2",
+            "time": 10823,
+            "nClicks": 3,
+            "value": "3"
+        },
+        "M2_6": {
+            "id": "M2_6",
+            "choice": "2",
+            "time": 11461,
+            "nClicks": 1,
+            "value": "3"
+        },
+        "M2_7": {
+            "id": "M2_7",
+            "choice": "2",
+            "time": 14751,
+            "nClicks": 3,
+            "value": "3"
+        },
+        "M2_8": {
+            "id": "M2_8",
+            "choice": "2",
+            "time": 14048,
+            "nClicks": 1,
+            "value": "3"
+        },
+        "M2_9": {
+            "id": "M2_9",
+            "choice": "2",
+            "time": 16102,
+            "nClicks": 1,
+            "value": "3"
+        },
+        "M2_10": {
+            "id": "M2_10",
+            "choice": "2",
+            "time": 16716,
+            "nClicks": 1,
+            "value": "3"
+        }
+    },
+    "missValues": [],
+    "isCorrect": true,
+    "done": true,
+    "player": "378488231562720",
+    "stage": {
+        "stage": 7,
+        "step": 1,
+        "round": 1
+    },
+    "timestamp": 1578328061253
+}, {
+    "time": 176085,
+    "timeup": false,
+    "id": "holt_laury",
+    "order": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9
+    ],
+    "items": {
+        "hl_1": {
+            "id": "hl_1",
+            "choice": "0",
+            "time": 60913,
+            "nClicks": 3,
+            "value": "1/10 chance to win $2.00<span class=\"sep\">and</span>9/10 chance to win $1.60",
+            "group": "holt_laury",
+            "groupOrder": 1,
+            "isCorrect": true,
+            "attempts": []
+        },
+        "hl_2": {
+            "id": "hl_2",
+            "choice": "0",
+            "time": 63206,
+            "nClicks": 1,
+            "value": "2/10 chance to win $2.00<span class=\"sep\">and</span>8/10 chance to win $1.60",
+            "group": "holt_laury",
+            "groupOrder": 2,
+            "isCorrect": true,
+            "attempts": []
+        },
+        "hl_3": {
+            "id": "hl_3",
+            "choice": "0",
+            "time": 67993,
+            "nClicks": 1,
+            "value": "3/10 chance to win $2.00<span class=\"sep\">and</span>7/10 chance to win $1.60",
+            "group": "holt_laury",
+            "groupOrder": 3,
+            "isCorrect": true,
+            "attempts": []
+        },
+        "hl_4": {
+            "id": "hl_4",
+            "choice": "0",
+            "time": 76124,
+            "nClicks": 3,
+            "value": "4/10 chance to win $2.00<span class=\"sep\">and</span>6/10 chance to win $1.60",
+            "group": "holt_laury",
+            "groupOrder": 4,
+            "isCorrect": true,
+            "attempts": []
+        },
+        "hl_5": {
+            "id": "hl_5",
+            "choice": "0",
+            "time": 82600,
+            "nClicks": 1,
+            "value": "5/10 chance to win $2.00<span class=\"sep\">and</span>5/10 chance to win $1.60",
+            "group": "holt_laury",
+            "groupOrder": 5,
+            "isCorrect": true,
+            "attempts": []
+        },
+        "hl_6": {
+            "id": "hl_6",
+            "choice": "1",
+            "time": 101461,
+            "nClicks": 1,
+            "value": "6/10 chance to win $3.85<span class=\"sep\">and</span>4/10 chance to win $0.10",
+            "group": "holt_laury",
+            "groupOrder": 6,
+            "isCorrect": true,
+            "attempts": []
+        },
+        "hl_7": {
+            "id": "hl_7",
+            "choice": "1",
+            "time": 125800,
+            "nClicks": 1,
+            "value": "7/10 chance to win $3.85<span class=\"sep\">and</span>3/10 chance to win $0.10",
+            "group": "holt_laury",
+            "groupOrder": 7,
+            "isCorrect": true,
+            "attempts": []
+        },
+        "hl_8": {
+            "id": "hl_8",
+            "choice": "1",
+            "time": 128741,
+            "nClicks": 1,
+            "value": "8/10 chance to win $3.85<span class=\"sep\">and</span>2/10 chance to win $0.10",
+            "group": "holt_laury",
+            "groupOrder": 8,
+            "isCorrect": true,
+            "attempts": []
+        },
+        "hl_9": {
+            "id": "hl_9",
+            "choice": "1",
+            "time": 131537,
+            "nClicks": 1,
+            "value": "9/10 chance to win $3.85<span class=\"sep\">and</span>1/10 chance to win $0.10",
+            "group": "holt_laury",
+            "groupOrder": 9,
+            "isCorrect": true,
+            "attempts": []
+        },
+        "hl_10": {
+            "id": "hl_10",
+            "choice": "1",
+            "time": 132103,
+            "nClicks": 1,
+            "value": "10/10 chance to win $3.85<span class=\"sep\">and</span>0/10 chance to win $0.10",
+            "group": "holt_laury",
+            "groupOrder": 10,
+            "isCorrect": true,
+            "attempts": []
+        }
+    },
+    "isCorrect": true,
+    "done": true,
+    "player": "378488231562720",
+    "stage": {
+        "stage": 8,
+        "step": 1,
+        "round": 1
+    },
+    "timestamp": 1578328237692
+}, {
+    "time": 476,
+    "timeup": false,
+    "timeBegin": "!?_null",
+    "feedback": "",
+    "attempts": [],
+    "valid": true,
+    "isCorrect": true,
+    "done": true,
+    "player": "378488231562720",
+    "stage": {
+        "stage": 9,
+        "step": 1,
+        "round": 1
+    },
+    "timestamp": 1578328238509
+}]

@@ -25,7 +25,7 @@ module.exports = function(stager, settings) {
         .gameover();
 
     // Modify the stager to skip one stage.
-	 stager.skip('writing');
+	 
 	 
 	 
 };
