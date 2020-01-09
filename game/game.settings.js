@@ -66,8 +66,13 @@ module.exports = {
         fear: {
             Name: 'Fear',
             description: "Felt scared",
-            questionFeeling: 'fear'
-        }
+            questionFeeling: 'scared'
+        },
 
-    }
+        control: {
+            Name: 'Control',
+            description: 'No emotion',
+
+        },
+     }
 };

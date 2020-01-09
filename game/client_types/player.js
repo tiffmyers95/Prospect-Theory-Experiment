@@ -642,20 +642,25 @@ widget: {
 
 
 
-stager.extendStep('writing', {
-    widget: {
-    name: 'Feedback',
-    root: 'container',
-        options: {
-          className: 'centered',
-          mainText: 'Can you recall the moment where you felt ' + settings.questionFeeling + '? Please write about the situation in as much detail as you can.',
-          minChars: 100,
-          minWords: 5,
-          requiredChoice: true,
-          showSubmit: false,
-          panel: false,
-          title: false,
-        }
+    stager.extendStep('writing', {
+      frame: settings.treatments,
+      cb: function() {
+        var s = node.game.settings;
+        if (s.treatmentName === 'control') {
+            node.done();
+            return;
+          }
+      var root = W.gid('container');
+      node.game.feedback = node.widgets.append('Feedback', 'container', {
+        className: 'centered',
+        mainText: 'Can you recall the moment where you felt ' + s.questionFeeling + '? Please write about the situation in as much detail as you can.',
+        minChars: 100,
+        minWords: 250,
+        requiredChoice: true,
+        showSubmit: false,
+        panel: false,
+        title: false,
+        });
       }
     });
 
