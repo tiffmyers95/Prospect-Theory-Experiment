@@ -16,31 +16,6 @@
  */
 module.exports = {
 
-    // Variables shared by all treatments.
-
-    // #nodeGame properties:
-
-    /**
-     * ### TIMER (object) [nodegame-property]
-     *
-     * Maps the names of the steps of the game to timer durations
-     *
-     * If a step name is found here, then the value of the property is
-     * used to initialize the game timer for the step.
-     */
-    // TIMER: {
-    //    instructions: 60000
-    // },
-
-    // # Game specific properties
-
-    // Number of game rounds repetitions.
-    REPEAT: 4,
-
-    // In case an incoming offer does not pass validation, which indicates
-    // cheating, re-set the dictator's offer to this value.
-    defaultOffer: 100,
-
     // # Treatments definition.
 
     // They can contain any number of properties, and also overwrite

@@ -21,18 +21,6 @@ module.exports = function(treatmentName, settings, stager, setup, gameRoom) {
 
         var header, frame;
 
-        // Bid is valid if it is a number between 0 and 100.
-        this.isValidBid = function(n) {
-            return node.JSUS.isInt(n, -1, 101);
-        };
-
-        this.randomOffer = function(offer, submitOffer) {
-            var n;
-            n = J.randomInt(-1,100);
-            offer.value = n;
-            submitOffer.click();
-        };
-
         // Setup page: header + frame.
         header = W.generateHeader();
         frame = W.generateFrame();
@@ -169,54 +157,6 @@ stager.extendStep('socio2', {
 		}
 		}
     });
-	
-
-	
-
-	//stager.extendStep('mood1', {
-	//widget: {
-	//name: 'MoodGauge',
-	//root: 'container',
-		// options: {
-        //        panel: false,
-        //        title: false
-        //    }
-		//}	
-	 //});
-	 
-
-	//// var root = document.body;
-	//// var mood = node.widgets.get('MoodGauge', root);		
-			
-// After user made his or her selection, get current values.
-// mood.getValues();
-// Object {
-//     id: "ipnassf"
-//     items: {
-//         Active: {
-//             id: "Active",
-//             group: "ipnassf",
-//             groupOrder: 10,
-//             attempts: [],
-//             choice: "3",
-//             isCorrect: true,
-//             nClicks: 1,
-//             time: 9510
-//         },
-//         Afraid: Object
-//         Alert: Object
-//         Ashamed: Object
-//         Attentive: Object
-//         Determined: Object
-//         Hostile: Object
-//         Inspired: Object
-//         Nervous: Object
-//         Upset: Object
-//    },
-//    missValues: true,
-//    order: [ 0, 1, 2, 3, 4, 5, 6, 7, 8, 9 ]
-// };
-// });		
 
 stager.extendStep('mood1', {
 widget: {
@@ -467,6 +407,29 @@ widget: {
 		}
     });
 
+stager.extendStep('writing', {
+      frame: settings.treatments,
+      cb: function() {
+        var s = node.game.settings;
+        if (s.treatmentName === 'control') {
+            node.done();
+            return;
+          }
+      var root = W.gid('container');
+      node.game.feedback = node.widgets.append('Feedback', 'container', {
+        className: 'centered',
+        mainText: 'Can you recall the moment where you felt ' + s.questionFeeling + '? Please write about the situation in as much detail as you can.',
+        minChars: 100,
+        minWords: 250,
+        requiredChoice: true,
+        showSubmit: false,
+        panel: false,
+        title: false,
+        });
+      }
+    });
+
+
 stager.extendStep('mood2', {
 widget: {
 		name: 'ChoiceManager',
@@ -640,31 +603,6 @@ widget: {
 		}
     });	
 
-
-
-    stager.extendStep('writing', {
-      frame: settings.treatments,
-      cb: function() {
-        var s = node.game.settings;
-        if (s.treatmentName === 'control') {
-            node.done();
-            return;
-          }
-      var root = W.gid('container');
-      node.game.feedback = node.widgets.append('Feedback', 'container', {
-        className: 'centered',
-        mainText: 'Can you recall the moment where you felt ' + s.questionFeeling + '? Please write about the situation in as much detail as you can.',
-        minChars: 100,
-        minWords: 250,
-        requiredChoice: true,
-        showSubmit: false,
-        panel: false,
-        title: false,
-        });
-      }
-    });
-
-
 stager.extendStep('game', {
 	widget: {
 	name: 'RiskGauge',
@@ -699,8 +637,5 @@ stager.extendStep('debriefing_feedback_consent', {
 	stager.extendStep('end', {
         donebutton: false,
         frame: 'end.htm',
-        //cb: function() {
-        //    node.game.visualTimer.setToZero();
-        //}
     });
 };
