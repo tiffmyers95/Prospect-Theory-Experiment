@@ -50,7 +50,7 @@ To play follow these steps, which apply to all [nodeGame](http://github.com/node
   6. Open one tab pointing to `localhost:8080`
   7. Select risk-or-no-risk
   8. Check the monitor interface at
-  `localhost:8080/ultimatum/monitor`
+  `localhost:8080/risk-or-no-risk/monitor`
 
 ## License
 
